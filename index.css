@@ -1,0 +1,21 @@
+.menu {
+  display: flex;
+}
+
+.menu li {
+  flex: 1 1 0;
+  display: inline-block;
+  text-align: center;
+}
+
+.sub-menu {
+  display: flex;
+  background-color: lightgrey;
+  font-size: 12px;
+}
+
+.sub-menu li {
+  flex: 1 1 0;
+  display: inline-block;
+  text-align: center;
+}
